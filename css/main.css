@@ -63,7 +63,7 @@ nav a::after {
    border-radius: 10px;
    background-color: #7d2ae8;
    width: 0;
-   transition: width .3s ease;
+   transition: width .3s ease-in-out;
 }
 
 nav a:hover::after {
@@ -243,16 +243,7 @@ nav a:hover::after {
    width: 85%;
 }
 
-.skills-section .head {
-   text-align: center;
-   font-size: 2em;
-   color: #7d2ae8;
-   font-weight: bolder;
-   position: relative;
-   padding: 3px;
-}
-
-.tools-section .head {
+.skills-section p {
    text-align: center;
    font-size: 2em;
    color: #7d2ae8;
@@ -267,36 +258,62 @@ nav a:hover::after {
    left: 0;
    bottom: 0;
    width: 0px;
+   margin-top: 20px;
    height: 4px;
-   margin-bottom: 10px;
    border-radius: 10px;
    background-color: #7d2ae8;
-   transition: width .4s ease;
+   transition: width .3s ease-in-out;
 }
 
 .skills-section p:hover::after {
    width: 100%;
 }
 
-.tools-section p {
+.head{
+   text-align: center;
+   font-size: 2em;
+   color: #7d2ae8;
+   font-weight: bolder;
    position: relative;
    padding: 3px;
 }
 
-.tools-section p::after {
+.boxes-two p::after {
+   content: " ";
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 0px;
+   margin-top: 20px;
+   height: 4px;
+   border-radius: 10px;
+   background-color: #7d2ae8;
+   transition: width .3s ease-in-out;
+}
+
+.boxes-two p:hover::after {
+   width: 100%;
+}
+
+.boxes-three p{
+   position: relative;
+   padding: 3px;
+}
+
+.boxes-three p::after {
    content: " ";
    position: absolute;
    left: 0;
    width: 0px;
    bottom: 0;
-   margin-bottom: 10px;
+   margin-top: 20px;
    height: 4px;
    border-radius: 10px;
    background-color: #7d2ae8;
    transition: width .4s ease;
 }
 
-.tools-section p:hover::after {
+.boxes-three p:hover::after {
    width: 100%;
 }
 

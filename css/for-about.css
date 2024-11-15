@@ -1,0 +1,111 @@
+.container {
+    display: block;
+    clear: both;
+    padding: 100px 0 30px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container {
+    max-width: 85%;
+    height: auto;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #7d2ae8;
+}
+
+.h1 {
+    color: #7d2ae8;
+    position: relative;
+    font-size: 1.5em;
+}
+
+.h1::after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #7d2ae8;
+    transition: width .3s ease-in-out;
+}
+
+.about-me {
+    text-indent: 1.5em;
+    text-align: justify;
+    line-height: 1.3em;
+    margin: 25px 0px 20px;
+}
+
+.about-me::first-letter {
+    font-size: 1.4em;
+}
+
+.about-first-section p {
+    text-align: justify;
+    text-indent: 1.5em;
+   color: #615c5c;
+}
+
+.first-para{
+    margin-top: 20px;
+}
+
+.my-photo {
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 15px;
+    box-shadow: 0px 0px 10px hsl(266, 76%, 65%);
+    transition: box-shadow .4s;
+}
+
+.my-photo:hover{
+    box-shadow: 0px 0px 20px hsl(266, 76%, 65%);
+}
+
+p{
+    line-height: 1.5em;
+}
+
+.for-span{
+    font-weight: bolder;
+}
+
+.about-first-section, .about-second-section {
+    padding: 30px;
+}
+
+.about-second-section table{
+    width: 95%;
+    justify-self: center;
+    border-collapse: collapse;
+    overflow: auto;
+}
+
+caption{
+    margin: 10px 0px;
+}
+
+.about-second-section th,
+td {
+    text-align: center;
+    padding: 15px 5px;
+}
+
+.about-second-section th{
+    color: #4b3f3f;
+}
+
+.about-second-section td{
+    font-size: .9em;
+    color: #615c5c;
+    font-weight: 600;
+}
+

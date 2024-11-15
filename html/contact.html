@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/for-contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <h1> <span>J</span>eeva</h1>
@@ -20,14 +23,43 @@
     </header>
 
     <main>
-
+        <div class="container">
+            <div class="sub-container">
+                <h1 class="contact-h1">Contact</h1>
+                <form action="#">
+                    <div class="group">
+                    <label class="for-block" for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="group">
+                    <label class="for-block" for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="group">
+                    <label class="for-block" for="Password">Password</label>
+                    <input type="Password" name="Password" id="Password">
+                </div> 
+                <div class="radio">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+                    <div class="button-group">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset
+                    </button>
+                </div>
+                </form>
+            </div>
+        </div>
     </main>
 
     <footer>
         <div class="one">
-        <h2 id="contact">Contact</h2>
-            <p>+91 708148276</p>
-              <P>mjeevanantham004@gmail.com</p>
+            <h2 id="contact">Contact</h2>
+            <p>+91 7708148276</p>
+            <P>mjeevanantham004@gmail.com</p>
 
             <div class="icon">
 
@@ -44,8 +76,9 @@
             </div>
         </div>
 
-        <p class="copy">&copy; <i>Created By</i>  <span>J</span>eeva. All Rights Reserved.</p>
+        <p class="copy">&copy; <i>Created By</i> <span>J</span>eeva. All Rights Reserved.</p>
     </footer>
 
 </body>
+
 </html>
