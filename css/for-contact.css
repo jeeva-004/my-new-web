@@ -73,6 +73,7 @@ label{
     border-radius: 6px;
     justify-self: center;
     padding:5px;
+    border: 2px solid hsl(266, 48%, 83%);
     cursor: pointer;
 }
 
