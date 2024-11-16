@@ -5,7 +5,7 @@
     justify-content: center;
 }
 
-main    h1{
+main  h1{
     margin-top: 50px;
     font-size: 2.6em;
     color:#7d2ae8;
@@ -32,8 +32,4 @@ main    h1{
     65%, 85%{
         background-position: 0 0 ;
     }
-
-
-
-
 }
